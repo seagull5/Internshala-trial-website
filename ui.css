@@ -1,0 +1,339 @@
+.navbar{
+	height:50px;
+	padding-bottom: 2px;
+}
+.navbar-text{
+	font-size: 11px;
+	height: 20px;
+	width: 200px;
+}
+.fa-shopping-bag{
+	color:lightgreen;
+}
+.fa-map-marker{
+	color:lightgreen;
+	padding-bottom: 2px;
+}
+.fa-instagram{
+	color:white;
+}
+.fa-facebook-square{
+	color:white;
+}
+.fa-envelope{
+	color:lightgreen;
+}
+.fa-clock-o{
+	color:lightgreen;
+}
+.fa-group , .fa-balance-scale , .fa-handshake-o{
+	color:green;
+}
+.fa-quote-left{
+	color: white;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+.vl {
+  border-left: 3px solid white;
+  height: 30px;
+}
+.nav1{
+	height:100px;
+	background-color: white;
+}
+.two{
+	width: 800px;
+	float:right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-flex;
+}
+.two a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+}
+.two a:hover{
+	color: hotpink;
+}
+
+#black{
+	background-color: black;
+	height: 400px;
+	text-align: center;
+	padding: 50px;
+	z-index: -1;
+	margin-bottom: -250px;
+}
+.container { width:90%;     margin:auto;  overflow: hidden; padding-top: 60px; padding: 50px; position: relative; margin-top: -10px;  }
+.items { width:30%;     display: block;     padding: 4px;     margin-bottom: 20px; 
+         line-height: 1.42857143;     background-color: #fff;    
+        border: 1px solid #ddd;     border-radius: 4px;     float:left;     margin-left:1%;  }
+.thumbnail {  display: block;     max-width: 100%;     height: auto;}
+.caption { color:#000;     padding:0px 10px 10px;        text-align: center; }  
+@media screen and (max-width: 992px) {
+  .container {
+    width: 50%;
+  }
+}        
+.page1{
+	overflow: hidden;
+	padding: 15px;
+	margin: auto;
+}
+@media screen and (max-width: 992px) {
+  .page1 {
+    width: 50%;
+  }
+}        
+.page2{
+	overflow: hidden;
+	padding: 20px;
+	margin: auto;
+}
+@media screen and (max-width: 992px) {
+  .page2 {
+    width: 50%;
+  }
+}        
+#part1{
+	float: left;
+	width: 700px;
+	padding: 50px;
+	padding-left: 200px;
+	margin: 20px;
+	text-align: center;
+}
+#part1:hover{
+	color: green;
+}
+#part2{
+	float: right;
+}
+#part21{
+	float: left;
+	padding-left: 200px;
+}
+#part22{
+	float: right;
+	margin: auto;
+	width: 700px;
+	padding-right: 200px;
+}
+#part22:hover{
+	color: green;
+}
+.button1{
+  background-color: black;
+  border: none;
+  color: #4CAF50;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 180px;
+  border-radius: 32px;
+}
+.button2{
+	background-color: white;
+  border: 3px solid black;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 180px;
+  border-radius: 32px;
+}
+.button3{
+  background-color: green;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 180px;
+  border-radius: 32px;
+}
+
+#package{
+	padding:30px;
+	text-align: center;
+	width: 700px;
+	margin: auto;
+	position: relative;
+}
+#package a:hover{
+	color: green;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.box{
+	padding-left: 350px;
+	padding-bottom: 50px;
+	padding-top: 100px;
+	padding-right: 350px;
+	overflow: hidden;
+}
+@media screen and (max-width: 992px) {
+  .box {
+    width: 50%;
+  }
+}        
+#box1{
+	float: left;
+	height: 300px;
+	width: 300px;
+	border: 1px solid green;
+	padding-left: 50px;
+}
+#box2{
+	float: right;
+	height: 300px;
+	width: 300px;
+	border: 1px solid green;
+	padding-left: 35px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: -20%;
+    left: 20%;
+}
+.column{
+	float: left;
+  padding: 80px;
+  height: 315px;
+  font-size: 12px;
+}
+.loss{
+	background-color: black;
+	min-height: 400px;
+	padding-left: 300px;
+}
+.col1 , .col2 , .col3{
+	width: 25%;
+}
+@media screen and (max-width: 800px) {
+  .col1 , .col2 , .col3 {
+    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+.c{
+	list-style-type: none;
+	color: white;
+}
+.loss: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.success{
+	overflow: hidden;
+	background-color: green;
+	min-height: 500px;
+}
+#pic{
+	float: left;
+}
+#info{
+	float: right;
+	width: 850px;
+	padding-top: 50px;
+	text-align: left;
+	color: white;
+}
+.inner-success{
+	background-color: darkgreen;
+	width: 500px;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+}
+.profile{
+	float: right;
+	width: 350px;
+	padding-top: 10px;
+	padding-right: 50px;
+}
+.team{
+	overflow: hidden;
+	padding: 50px;
+	margin: 20px;
+}
+
+#team1{
+	float: left;
+	width: 600px;
+	padding: 50px;
+	padding-left: 100px;
+	margin: auto;
+}
+#team2{
+	float: right;
+	padding-right: 300px;
+	padding: 20px;
+	margin: 50px;
+	border: 3px solid green;
+}
+footer{
+	background-color: black;
+	height: 350px;
+}
+.column{
+	float: left;
+  padding: 80px;
+  height: 315px;
+  font-size: 12px;
+}
+.first , .second , .third{
+	width: 18%;
+}
+.fourth{
+	width: 26%;
+	border-left: 2px solid green;
+	height: 200px;
+} 
+.fifth{
+	width: 20%;
+}
+
+.row: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.h{
+	padding-top: 200px;
+}
+.f1{
+	list-style-type: none;
+	color: white;
+}
+.v2{
+	border-bottom: 1px solid green;
+	width: 50px;
+}
+@media screen and (max-width: 800px) {
+  .first, .second, .third , .fourth , .fifth {
+    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
